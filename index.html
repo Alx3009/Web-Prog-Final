@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Web Prog UAS</title>
+</head>
+<body>
+    <div class="container">
+	<div class="header">
+	<h1 class="title">Your Memo</h1>
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">About</a></li>
+		<li><a href="#">Contact</a></li>
+	</ul>
+	<div id="ClockDisplay" class="clock"></div>
+	</div>
+
+	<div class="hero">
+		<a id= "prev" onclick="show_slides(-1)">&#x2039</a>
+		<a id= "next" onclick="show_slides(1)">&#x203a</a>
+		<div class="my_slides">
+			<img src="uas1.jpg" alt="">
+		</div>
+		<div class="my_slides">
+			<img src="uas2.jpg" alt="">
+		</div>
+		<div class="my_slides">
+			<img src="uas3.jpg" alt="">
+		</div>
+	</div>
+
+	<div class="content cf">
+
+		<div class="sideleft">
+		<h3>Info</h3>
+		<p>This page is made for the final exam of the semester. I thank Pak Andika for teaching well and giving constructive criticism. Hopefully, in the future, I can be better and develop the knowledge that has been given.</p>
+		</div>
+
+		<div class="main">
+		<h1 class="judul">To-do List</h1>
+
+		<div class="add-element">
+			<input type="text" id ="add" placeholder="Type something to do">
+			<button id="btn">Add</button>
+		</div>
+
+		<div class="element-list">
+			<ul id="list">
+			</ul>
+		</div>
+		</div>
+
+		<div class="sidebar">
+		<h3>About the Author</h3>
+		<img src="profile.png" alt="Tito Alexsta">
+		<p>Tito Alexsta, Currently studying at President University, Majoring in Information Technology. I want to be success man in the future. I am interested in IoT and it is possible that I will explore more in the future.
+		</div>
+	
+
+	</div>
+	<div class="footer">
+		<p>Copyright 2020. Tito Alexsta</p>
+	</div>
+
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
